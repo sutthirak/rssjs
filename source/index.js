@@ -20,6 +20,7 @@ rssjs.parse = function (rss) {
     }
     
     var response = new Object();
+    
     try {
         var parser = new DOMParser();
         var doc = parser.parseFromString(rss, "application/xml");
