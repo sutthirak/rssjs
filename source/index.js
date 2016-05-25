@@ -51,3 +51,7 @@ rssjs.parse = function (rss) {
     return response;
       
 }
+
+if (typeof module !== 'undefined') {
+  module.exports = rssjs;
+}

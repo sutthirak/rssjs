@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://bitbucket.com/sutthirak/rssjs.git"
   },
-  "main": "release/rssjs.min.js",
+  "main": "source/index.js",
   "scripts": {
     "test": "gulp test"
   },
