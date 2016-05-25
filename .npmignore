@@ -1,0 +1,4 @@
+source/*
+test/*
+gulpfile.js
+karma.conf.js

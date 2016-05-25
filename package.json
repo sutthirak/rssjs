@@ -2,14 +2,18 @@
   "name": "rss.js",
   "version": "0.1.0",
   "description": "javascript framework for parsing RSS",
-  "main": "index.js",
+  "homepage": "https://bitbucket.com/sutthirak/rssjs",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.com/sutthirak/rssjs.git"
+  },
+  "main": "release/rssjs.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "author": "Sutthirak Sangchan",
   "license": "MIT",
   "devDependencies": {
-    "clear": "0.0.1",
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
     "gulp-rename": "^1.2.2",
